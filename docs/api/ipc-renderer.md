@@ -37,9 +37,9 @@ channel.
 
 This removes *all* handlers to this ipc channel.
 
-### `ipcRenderer.once(channel, callback)`
+### `ipcMain.once(channel, callback)`
 
-Use this in place of `ipcRenderer.on()` to fire handlers meant to occur only once,
+Use this in place of `ipcMain.on()` to fire handlers meant to occur only once,
 as in, they won't be activated after one call of `callback`
 
 ## Sending Messages
