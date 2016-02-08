@@ -359,7 +359,7 @@ void NativeWindowViews::SetFullScreen(bool fullscreen) {
   }
   // We set the new value after notifying, so we can handle the size event
   // correctly.
-  if(!prevent_default)
+  if (!prevent_default)
     window_->SetFullscreen(fullscreen);
 #else
   if (IsVisible())
